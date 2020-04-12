@@ -10,6 +10,7 @@ def cuadrado(numero):
 def finalizado():
     print("Programa Finalizado")
 
-if __name__ == "__main__":
-    cuadrado(10)
-    finalizado()        
+numero = int(input("Digite un numero entre -10 y 10 "))
+while numero<-11 and numero<11:
+    print(cuadrado(numero))
+    print(finalizado)
